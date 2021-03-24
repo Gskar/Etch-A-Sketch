@@ -6,10 +6,19 @@
   box-sizing: border-box;
 }
 
+.head {
+  margin-top: 2rem;
+}
+
 h1 {
   text-align: center;
-  margin-top: 4rem;
+  color: rgb(238, 195, 6);
+}
+
+h3 {
+  text-align: center;
   color: white;
+  margin-top: 15px;
 }
 
 body {
@@ -42,6 +51,12 @@ body {
   outline: none;
   background: none;
   color: rgb(255, 255, 255);
+  transition: 200ms ease-in-out;
+}
+
+.buttoncontainer button:hover,
+.btncontainer button:hover {
+  transform: scale(1.1);
 }
 
 .container {
